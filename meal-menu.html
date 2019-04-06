@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <script src="Menu.js"></script>
+        <link rel="stylesheet" href="menu-style.css">
+    </head>
+
+    <body>
+        <div class="menu-heading">Menu</div>
+        <div class="items" id="beverage">
+            <ul>
+                <li>
+                    <a href="beverage-menu.html"><img src="glass-cup-with-tea.jpg" width="300"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="item-heading">Beverage</div>
+
+        <div class="items" id="all-day">
+            <ul>
+                <li>
+                    <a href="all-day-menu.html"><img src="crepe-gruau.jpg" width="300"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="item-heading">All Day</div>
+
+        <div class="items" id="breakfast">
+            <ul>
+                <li>
+                    <a href="breakfast-menu.html">
+                        <img src="breakfast-eggs.jpg" width="300">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="item-heading">Breakfast</div>
+
+
+        
+        <div class="items" id="lunch">
+            <ul>
+                <li>
+                    <a href="lunch-menu.html">
+                        <img src="salad-bowl.jpg" width="300"></li>
+                    </a>
+            </ul>
+        </div>
+        <div class="item-heading">Lunch</div>
+
+        <div class="items" id="dinner">
+            <ul>
+                <li>
+                    <a href="dinner-menu.html"><img src="fish-and-chips-dinner.jpg" width="300"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="item-heading">Dinner</div>
+        <pre>
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+            <script>
+              // Initialize Firebase
+              var config = {
+                apiKey: "AIzaSyDfRplASOJe-c7-3gSOCjtZDi1inVFc6Do",
+                authDomain: "test-web-app-83707.firebaseapp.com",
+                databaseURL: "https://test-web-app-83707.firebaseio.com",
+                projectId: "test-web-app-83707",
+                storageBucket: "test-web-app-83707.appspot.com",
+                messagingSenderId: "248318515426"
+              };
+              firebase.initializeApp(config);
+            </script>
+            
+            <!-- Firebase App is always required and must be first -->
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+            
+            <!-- Add additional services that you want to use -->
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-firestore.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-messaging.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-functions.js"></script>
+            
+            <!-- Comment out (or don't include) services that you don't want to use -->
+            <!-- <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-storage.js"></script> -->
+            
+
+            
+        </pre>
+    </body>
+</html>

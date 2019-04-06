@@ -1,0 +1,33 @@
+body {
+    background: url('images/homepage-background.jpg');
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+div.menu-heading {
+    width: 100%;
+    padding: 50px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+div.item-heading {
+    width: 100%;
+    padding: 25px;
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+ul li {
+    list-style: none;
+}

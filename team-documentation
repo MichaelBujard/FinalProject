@@ -1,0 +1,30 @@
+Menu items:
+
+OutOfStock boolean saying if it's not there
+
+once you've logged in, you go to a new page.
+
+Figure out how it works when attaching it to firebase in Javascript.
+
+Scroll through food categories. When you click it, food options appear. It's a nested list.
+
+--
+
+Menu items shared with server:
+
+name
+image link to web
+price
+in stock/out of stock.
+
+1) assume you have database now and work on it.
+ main
+     |
+     |__users
+     |
+     |__objects
+
+03272019
+database: Use Javascript to connect to database to display order requests from database
+
+Have an "order received" checkbox.
